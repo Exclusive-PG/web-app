@@ -1,0 +1,15 @@
+.wrapper__app {
+  max-width: 1400px;
+  margin: 0 auto;
+  display: grid;
+  grid-template-rows: 100px 1fr;
+  grid-template-columns:2fr 10fr;
+  grid-template-areas:
+    "header header"
+    "nav ctn";
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+   
+}
+body{
+  background-color: wheat;
+}

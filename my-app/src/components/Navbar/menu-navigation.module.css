@@ -1,0 +1,48 @@
+.menu_nav {
+  background-color: red;
+  grid-area: nav;
+  text-align: center;
+  grid-column-gap: 40px;
+
+  letter-spacing: 0.5px;
+  background-color: #000;
+  padding: 0 0 5px 0;
+  text-transform: uppercase;
+}
+.menu_nav a {
+  text-decoration: none;
+  color: #fff;
+  position: relative;
+  font-size: 20px;
+}
+
+.menu_nav div:hover::before {
+  width: 100%;
+  transition: all 0.2s;
+}
+.menu_nav a:hover .menu_nav div {
+  width: 100%;
+  transition: all 0.3s;
+  background-color: #fff;
+}
+
+.menu_nav div::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 27px;
+  height: 2px;
+  width: 0%;
+  background-color: #fff;
+  border-radius: 40px;
+  transition: all 0.3s;
+}
+
+.menu_nav div {
+  margin-top: 20px;
+  position: relative;
+  user-select: none;
+}
+.menu_nav a:hover{
+    color: #FF0000;
+}
