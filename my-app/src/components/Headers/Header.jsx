@@ -4,7 +4,7 @@ import styles from "./../Headers/Header.module.css";
 const Header = () =>{
     return (
         <header className={styles.header}>
-             <div>Exlusive.com</div>
+             <div>www.exlusive.com</div>
             </header>
     );
 }

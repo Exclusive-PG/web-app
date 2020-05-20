@@ -4,30 +4,3 @@
     color: #000;
     position: relative;
   }
-
-  .backGround__image img{
-    min-height: 200px;
-    height: 100px;
-
-   width: 100%;
-    background-size: cover;
-   background-position: center;
-  }
-  .avatar__user img{
-width: 75px;
-height: 75px;
-
-  }
-.wrapper__image__profile{
-  position: relative;
-}
-  .avatar__user{
-   position: absolute;
-   top: 50%;
-   left: 50%;
-   transform: translate(-50%,50%);
-  }
-  .avater__image_border{
-    border: 5px solid #2200FF;
-    border-radius: 50%;
-  }

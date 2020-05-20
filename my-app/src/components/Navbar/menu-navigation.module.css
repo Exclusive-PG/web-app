@@ -15,7 +15,9 @@
   position: relative;
   font-size: 20px;
 }
-
+.menu_nav a.activeLink{
+  color: #FF0000;
+}
 .menu_nav div:hover::before {
   width: 100%;
   transition: all 0.2s;
