@@ -1,0 +1,17 @@
+.user__msg:hover{
+    cursor: pointer;
+    background-color: #FF0000;
+    transition: all .2s;
+}
+
+.user__msg{
+    text-align: center;
+    padding: 20px 5px;
+    border-bottom:1px solid black;
+} 
+.user_img img{
+   width: 40px;
+} 
+.user_name{
+    letter-spacing: .5px;
+}

@@ -1,0 +1,19 @@
+.avatar__post{
+    width: 40px;
+}
+.wrapper__post{
+    margin-top: 20px;
+    display: grid;
+    grid-template-columns: 1fr 10fr;
+}
+.avatar__inner{
+    display: grid;
+    justify-content: center;
+}
+.text__post{
+    font-size: 18px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.Count__Like{
+    text-align: center;
+}

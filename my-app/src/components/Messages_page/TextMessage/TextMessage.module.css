@@ -1,0 +1,19 @@
+.dialog{
+    padding: 20px 10px;
+ }
+ .dialogs::-webkit-scrollbar{
+    width: 0;
+}
+.message{
+    border: 1px solid #fff;
+    padding: 10px 15px;
+    border-radius: 5px;
+    background-color: #fff;
+}
+.img_user_msg img{
+    padding: 15px 10px;
+    width: 40px;
+}
+.wrapper_messages{
+    display: flex;
+}

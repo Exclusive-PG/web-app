@@ -1,0 +1,21 @@
+.friend__page{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: black;
+    padding:  15px;
+    height: 500px;
+    overflow-x: hidden;
+    overflow-y: scroll;
+    background-color: greenyellow;
+}
+.friend__page::-webkit-scrollbar{
+    width: 0;
+}
+.infoFriend{
+    margin-bottom: 20px;
+    font-size: 30px;
+    font-weight: 500;
+}
+.list_friend{
+    display: grid;
+    grid-template-columns: 5fr 5fr;
+}

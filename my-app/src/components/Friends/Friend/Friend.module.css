@@ -1,0 +1,24 @@
+.img_friend img{
+    width: 60px;
+    margin-right: 10px;
+    margin-left: 10px;
+}
+.friend{
+    display: flex;
+    font-size: 28px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.friend a{
+    text-decoration: none;
+    color: #000;
+}
+.friend div:hover a{
+
+    color: #FF0000;
+    cursor: pointer;
+}
+.full__name{
+    display: grid;
+    align-items: center;
+    margin-bottom: 15px;
+}
