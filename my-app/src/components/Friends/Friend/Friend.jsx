@@ -5,11 +5,6 @@ import { NavLink } from "react-router-dom";
 const Friend = (props) => {
 
      let pathFriend = "/friends/"+ props.id;
-    // return(
-    //   <div className={style.user__msg}>
-    //     <NavLink to={pathMsg}>{props.name}</NavLink>
-      
-    //     </div>
 
 
 let fullName = `${props.firstName}  ${props.lastName}` ;

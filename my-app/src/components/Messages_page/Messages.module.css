@@ -3,6 +3,7 @@
     grid-template-columns: 2fr 5fr;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     font-size: 20px;
+    position: relative;
 }
 
 .users__msg{
@@ -23,12 +24,45 @@
 .users__msg::-webkit-scrollbar{
     width: 0;
 }
-.dialogs::-webkit-scrollbar{
+.element_message::-webkit-scrollbar{
     width: 0;
 }
 .dialogs{
+    height:500px;
+
+}
+.element_message{
     background-color: springgreen;
     overflow-y: scroll;
     overflow-x: hidden;
-    height: 500px;
+    height: 450px;
+}
+
+
+
+.input_msg textarea{
+    resize: none;
+    display: grid;
+    width: 100%;
+    font-size: 20px;
+    overflow-y: hidden;
+}
+
+.input_msg{
+    display: grid;
+    grid-template-columns: 8fr 2fr;
+}
+.btn_send_msg{
+    display: grid;
+    align-items: center;
+    justify-self: center;
+    background-color: skyblue;
+    padding:0 60px;
+    border-radius: 6px;
+    user-select: none;
+}
+.btn_send_msg:hover{
+    background-color: #ff0000;
+    color: #fff;
+    cursor: pointer;
 }

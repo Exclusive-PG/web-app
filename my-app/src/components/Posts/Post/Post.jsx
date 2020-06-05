@@ -8,7 +8,7 @@ const Post=(props)=>{
         <div className={style.avatar__inner}> 
         <img className={style.avatar__post}src="https://cdn.shopify.com/s/files/1/0099/9562/files/Header-Icon-User.png?14597416339728210630" alt=""/>
         </div>
-        <div className={style.text__post}>{props.msg} </div>
+        <div className ={style.block_text}><span className={style.text__post}>{props.msg}  </span></div>
     <div className={style.Count__Like}>Like {props.like}</div>
     </div>
         

@@ -13,6 +13,14 @@
 .text__post{
     font-size: 18px;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    border: 2px solid #fff;
+    background-color: #fff;
+    padding: 10px 20px;
+    border-radius: 5px;
+
+}
+.block_text{
+    margin-top: 10px;
 }
 .Count__Like{
     text-align: center;
